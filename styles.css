@@ -1,0 +1,88 @@
+body{
+    background-color: white;
+    display: flex;
+    margin: 0px;
+}
+.sidebar{
+    height:96%;
+    width: 400px;
+    background-color: #425e4a;
+    opacity: 1;
+    display: flex;
+    top: 0;
+    left: 0;
+    padding: 0px;
+    position: fixed;
+    margin: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar h1{
+    font-family: monospace;
+    font-size: 50px;
+    color: white;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.sidebar p{
+    margin-left:15px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    display:flex;
+    flex-direction: column;
+}
+.sidebar ul{
+    list-style: none;
+    margin: 0px;
+    margin-left: -25px;
+    display:flex;
+    flex-direction: column;
+}
+.sidebar li{
+    font-size: 30px;
+    margin: 20px;
+    margin-left: 0px;
+}
+.sidebar a{
+    color: white;
+}
+a:hover{
+    opacity: .6;
+}
+.sidebar img{
+    margin: 10px;
+}
+.socials{
+    display: flex;
+}
+
+.main-content {
+    flex-grow: 1; 
+    background-color: #425e4a; 
+    margin: 18px; 
+    margin-left: 450px;
+    padding: 20px;
+    height: 100vh; 
+    overflow: auto; 
+}
+.main-content h1{
+    font-family: monospace;
+    font-size: 50px;
+    margin: 0;
+    color: white;
+}
+.home-intro{
+    font-size: 20px;
+}
+section{
+    margin: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
